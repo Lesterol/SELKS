@@ -518,10 +518,10 @@ outputs:
 
       # File size limit.  Can be specified in kb, mb, gb.  Just a number
       # is parsed as bytes.
-      limit: 10mb
+      limit: 2gb
 
       # If set to a value will enable ring buffer mode. Will keep Maximum of "max-files" of size "limit"
-      max-files: 20
+      max-files: 50
 
       mode: multi # normal, multi or sguil.
 
